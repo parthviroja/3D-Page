@@ -1,0 +1,97 @@
+*{
+    padding:0px;
+    margin: 0px;
+    font:12px monospace;
+    color:#000000;
+    overflow:hidden;
+}
+html{
+    position:relative;
+}
+
+body{
+    position:absolute;
+    width:100%;
+    display:block;
+    margin:0 auto;
+    background-color:#efefef;
+     -webkit-perspective:1400px;
+    -webkit-transform-style: preserve-3d;
+}
+
+h1{
+    font:4em "Lato Hairline", "Lato Light";
+    padding:8px;
+    color:rgba(0,0,0,1);
+    display: block;
+    text-align:left;
+    padding:8px;
+    
+}
+
+h2{
+    font:4em "Lato Hairline", "Lato Light";
+    padding:4px;
+    display: block;
+    text-align:left;
+    font-weight:bold;
+    padding:8px;
+}
+
+p , li {
+    font:1.5em 'Calibri';
+    color:rgba(0,0,0,0.5);
+    display: block;
+    text-align:justify;
+    letter-spacing:1px;
+    padding:8px;
+    list-style:none;
+   
+}
+
+#header-pane{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+   
+    z-index: 10000;
+    overflow: hidden;
+    -webkit-transition: height 0.3s;
+    -moz-transition: height 0.3s;
+    transition: height 0.3s;
+}
+
+.name{
+    font-family:'Calibri';
+    font-size:12em;
+    color:rgba(255,255,255,0.8);
+    margin:0 auto;
+    display:block;
+    font-weight:bold;
+    text-align:center;
+	padding:5% 0;
+}
+
+#body-pane{
+   
+}
+
+#body-pane > div{
+    padding:8px;
+    position:relative;
+    display:block;
+}
+#body-pane > div:first-child{
+    padding:0px;
+    -webkit-transform:translateZ(-100px);
+}
+
+#body-pane > div:nth-child(odd){
+    background-image: radial-gradient(center bottom, ellipse cover, #ffeda3, #ffc800);
+    background-image: -o-radial-gradient(center bottom, ellipse cover, #ffeda3, #ffc800);
+    background-image: -ms-radial-gradient(center bottom, ellipse cover, #ffeda3, #ffc800);
+    background-image: -moz-radial-gradient(center bottom, ellipse cover, #ffeda3, #ffc800);
+    background-image: -webkit-radial-gradient(center bottom, ellipse cover, #ffeda3, #ffc800);
+    -webkit-box-shadow:1px 1px 20px rgba(0,0,0,0.1);
+}

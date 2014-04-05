@@ -14,4 +14,4 @@ Email       : parth.m.viroja@gmail.com
 From        : Surat, Gujarat, India
 
 
-[![ScreenShot](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)]
+[![ScreenShot](https://lh3.googleusercontent.com/-pzur1oQqQpE/Uz-YvTp4CKI/AAAAAAAAAK0/3lxKHHVWX9E/w800-h384-no/page.png)]
